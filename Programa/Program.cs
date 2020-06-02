@@ -9,8 +9,7 @@ namespace Programa
             LerArquico msg = new LerArquico();
             var mens = msg.LerArquivo();
 
-            Console.WriteLine($"É agora, Hello World! o Cryp é  e o Descryp é{mens} ");
-            Console.WriteLine($"É agora, Hello World! o Cryp é  e o Descryp é{mens} ");
+            Console.WriteLine($"Hello World! o Cryp é  e o Descryp é{mens} ");
         }
     }
 }
