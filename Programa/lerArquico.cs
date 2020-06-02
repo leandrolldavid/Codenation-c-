@@ -10,7 +10,7 @@ namespace Programa
         public string LerArquivo()
         {
                     string palavra = "";
-            string arquivo = @"C:\Users\leandrodavid\source\repos\Programa\Estados.csv";
+            string arquivo = @"\Estados.csv";
             if (File.Exists(arquivo))
             {
                 try
